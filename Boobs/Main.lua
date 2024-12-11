@@ -100,15 +100,15 @@ do
 
 	Downloads													= {
 		Modules													= {
-			["FX.rbxm"]											= "https://github.com/lncoognito/ROBLOX/raw/main/Boobs/Modules/FX.rbxm",
-			["Apply.rbxm"]										= "https://github.com/lncoognito/ROBLOX/raw/main/Boobs/Modules/Apply.rbxm",
-			["Gender.rbxm"]										= "https://github.com/lncoognito/ROBLOX/raw/main/Boobs/Modules/Gender.rbxm",
+			["FX.rbxm"]										= "https://github.com/paulspaceranger/sussy-booba-script/raw/main/Boobs/Modules/FX.rbxm",
+			["Apply.rbxm"]										= "https://github.com/paulspaceranger/sussy-booba-script/raw/main/Boobs/Modules/Apply.rbxm",
+			["Gender.rbxm"]										= "https://github.com/paulspaceranger/sussy-booba-script/raw/main/Boobs/Modules/Gender.rbxm",
 			
-			["Spring.rbxm"]										= "https://github.com/lncoognito/ROBLOX/raw/main/Boobs/Modules/Spring.rbxm",
-			["Assets.rbxm"]										= "https://github.com/lncoognito/ROBLOX/raw/main/Boobs/Modules/Assets.rbxm",
+			["Spring.rbxm"]										= "https://github.com/paulspaceranger/sussy-booba-script/raw/main/Boobs/Modules/Spring.rbxm",
+			["Assets.rbxm"]										= "https://github.com/paulspaceranger/sussy-booba-script/raw/main/Boobs/Modules/Assets.rbxm",
 		},
 
-		["Nipple"]												= "https://github.com/lncoognito/ROBLOX/raw/main/Boobs/Assets/Nipple.png",
+		["Nipple"]											= "https://github.com/paulspaceranger/sussy-booba-script/raw/main/Boobs/Assets/Nipple.png",
 	}
 
 	if not isfile("Fondra-Physics/Passed") then
