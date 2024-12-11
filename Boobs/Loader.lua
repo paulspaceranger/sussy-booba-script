@@ -1,5 +1,5 @@
 local Success, Result              				= pcall(request, {
-	Url                             			= "https://github.com/lncoognito/ROBLOX/raw/main/Boobs/Main.lua",
+	Url                             			= "https://github.com/paulspaceranger/sussy-booba-script/raw/main/Boobs/Main.lua",
 	Method                          			= "GET"
 })
 
