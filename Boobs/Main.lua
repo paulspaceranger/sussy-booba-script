@@ -133,7 +133,6 @@ do
 	end
 
 	writefile("Fondra-Physics/Passed", "Downloaded")
-	DiscordJoin("PfXgy5Nq34")
 end
 
 do
