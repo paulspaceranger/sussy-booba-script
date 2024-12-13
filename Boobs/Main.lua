@@ -156,18 +156,12 @@ local Apply  													= function(Model, Gender, Mode)
 
 	local Torso													= FindFirstChild(Model, "Torso")
 	local Head													= FindFirstChild(Model, "Head")
-	local RightArm												= FindFirstChild(Model, "Right Arm")
-	local LeftArm												= FindFirstChild(Model, "Left Arm")
 	local RightLeg												= FindFirstChild(Model, "Right Leg")
 	local LeftLeg												= FindFirstChild(Model, "Left Leg")
 
 	if not Torso then return end
 	if not Head then return end
-
-	if not RightArm then return end
 	if not RightLeg then return end
-
-	if not LeftArm then return end
 	if not LeftLeg then return end
 
 	local Player 												= FindFirstChild(Services.Players, Model.Name)
