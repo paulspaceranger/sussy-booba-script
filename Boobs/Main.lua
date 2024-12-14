@@ -81,24 +81,6 @@ local function CustomRequest(Link, Custom)
 	return Result.Body
 end
 
-local function DiscordJoin(Code)
-	request({
-		Url             										= "http://127.0.0.1:6463/rpc?v=1",
-		Method              									= "POST",
-	
-		Headers = {
-			["Content-Type"]									= "application/json",
-			["Origin"]      									= "https://discord.com"
-		},
-	
-		Body 													= Services.HttpService:JSONEncode({
-			cmd             									= "INVITE_BROWSER",
-			args            									= { code = Code },
-			nonce           									= Services.HttpService:GenerateGUID(false)
-		}),
-	})
-end
-
 do
 	if not Config.Version then
 		if isfolder("Fondra-Physics") then delfolder("Fondra-Physics") end
