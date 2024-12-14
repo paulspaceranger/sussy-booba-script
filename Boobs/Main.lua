@@ -391,3 +391,20 @@ getgenv()["Discord.gg/PfXgy5Nq34"]["PlayerAdded"] 				= Services.Players.PlayerA
 		Apply(New, Gender, Mode)
 	end)  
 end)
+
+game:GetService("RunService").Stepped:Connect(function()
+    for _, player in ipairs(game:GetService("Players"):GetPlayers()) do
+        if player.Character then
+            local leftArm = player.Character:FindFirstChild("Left Arm")
+            local rightArm = player.Character:FindFirstChild("Right Arm")
+
+            if leftArm then
+                leftArm.Transparency = 0
+            end
+
+            if rightArm then
+                rightArm.Transparency = 0
+            end
+        end
+    end
+end)
