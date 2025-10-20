@@ -396,6 +396,7 @@ game:GetService("RunService").Stepped:Connect(function()
         if player.Character then
             local leftArm = player.Character:FindFirstChild("Left Arm")
             local rightArm = player.Character:FindFirstChild("Right Arm")
+			local torso = player.Character:FindFirstChild("Torso")
 
             if leftArm then
                 leftArm.Transparency = 0
@@ -404,6 +405,10 @@ game:GetService("RunService").Stepped:Connect(function()
             if rightArm then
                 rightArm.Transparency = 0
             end
+
+			if torso then
+				torso.Transparency = 0
+			end
         end
     end
 end)
